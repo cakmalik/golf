@@ -1,8 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
+  css:[
+    '~/assets/css/main.css',
+  ],
+
   modules: ["@nuxtjs/tailwindcss", ["@nuxtjs/google-fonts",  {
     families: {
+      Oswald: true,
       'Rubik+Moonrocks': true,
       Inter: [400, 700],
       'Josefin+Sans': true,
