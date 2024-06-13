@@ -1,11 +1,11 @@
 <template>
     <div class="w-full min-h-screen flex items-center justify-center bg-red-200">
         <!-- <p class="title">asdasd</p> -->
-        <div class="w-[400px] h-[400px] bg-white relative">
-            <div class="w-[280px] h-[400px] bg-green-600">
+        <div class="w-[400px] h-[400px] bg-neutral-100 relative">
+            <div class="w-[280px] h-[400px] bg-green-700">
             </div>
             <div
-                class="w-[200px] h-[calc(100%-40px)] bg-green-600 absolute top-5 right-5 rounded-3xl border-8 border-white p-3 pt-1">
+                class="z-20 w-[200px] h-[calc(100%-40px)] bg-green-700 absolute top-5 right-5 rounded-3xl border-8 border-white p-3 pt-1">
                 <div class="w-full flex flex-col text-center">
                     <h3 class="font-oswald font-semibold italic text-white text-xl">Sendy Susanto</h3>
                     <span class="text-sm font-edosz">1st monthly medal</span>
@@ -63,15 +63,16 @@
                     </div>
                 </div>
             </div>
-            <div class="absolute bottom-6 left-32">
+            <div class="absolute bottom-6 left-32 z-[50]">
                 <div class="main-score relative">
                     <div class="w-[100px]">
-                        <h1 class="font-rubik text-7xl text-white">74</h1>
+                        <h1 class="font-rubik text-8xl text-white">74</h1>
                     </div>
 
                     <h1 class="font-edosz text-3xl text-yellow-400 absolute -top-4 right-3">+2</h1>
                 </div>
             </div>
+            <img src="/images/2.png" class="h-[calc(100%-30px)] absolute bottom-0 left-0" />
         </div>
     </div>
 </template>
